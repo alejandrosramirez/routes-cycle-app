@@ -22,16 +22,25 @@ export default {
 		return {
 			links: [
 				{
-					to: "/home",
+					to: "pokemon-home",
 					name: "Pokemon",
 				},
 				{
-					to: "/pokemon/50",
-					name: "Por ID",
+					to: "pokemon-id",
+					name: "Pokemon by Id",
+					id: 151,
 				},
 				{
-					to: "/about",
-					name: "About",
+					to: "pokemon-about",
+					name: "Pokemon About",
+				},
+				{
+					to: "dbz-characters",
+					name: "DBZ Characters",
+				},
+				{
+					to: "dbz-about",
+					name: "DBZ About",
 				},
 				{
 					to: "https://google.com",
